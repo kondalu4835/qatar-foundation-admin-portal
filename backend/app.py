@@ -14,8 +14,9 @@ app.config.from_object(Config)
 #     "allow_headers": ["Content-Type", "Authorization"],
 #     "methods": ["GET", "POST", "PUT", "DELETE", "OPTIONS"]
 # }})
+# Replace the origin URL with your actual Live Frontend URL
 CORS(app, resources={r"/api/*": {
-    "origins": ["https://qatar-foundation-portal.onrender.com"],
+    "origins": ["https://qatar-foundation-admin-portal-1-t1wb.onrender.com"],
     "allow_headers": ["Content-Type", "Authorization"],
     "methods": ["GET", "POST", "PUT", "DELETE", "OPTIONS"]
 }})
